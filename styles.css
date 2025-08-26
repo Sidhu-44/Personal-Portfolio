@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-image: url(https://i.pinimg.com/236x/f5/41/35/f5413541947a0e910dce8737665a85c0.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    z-index: 1000;
+    
+    
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color:black;
+    transition: 0.9s ease;
+    border: 1px solid indianred;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: indianred;
+    font-family: sans-serif;
+    
+    
+
+}
+
+
+nav a:hover {
+    color:whitesmoke;
+    background-color: transparent;
+    transform: scale(1.1);
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+section {
+    margin: 50px 0;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background:rgba(255, 255, 255, 0.3);
+    
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+    url(https://media.istockphoto.com/id/1433782209/vector/beautiful-reb-and-black-background-for-design-campaign.jpg?s=612x612&w=0&k=20&c=cNElIn0N5tGPXZ0D3E8rcBDm7VA7Uplwfy67rbVIUU4=);
+    background-size: cover;
+    color: #333;
+    border-radius: 10px;
+    position: relative;
+    transition: 5s ease;
+
+}
+
+.hero img {
+    border-radius: 10px;
+    width: 400px;
+    
+    transition: 1.5s ease;
+}
+.hero img:hover{
+    transform: scale(1.2);
+}
+.footer{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.485);
+    font-family: sans-serif;
+    margin-top: 40px;
+    padding: 30px;
+    
+}
+.skills{
+    margin-left: 40px;
+}
+#skill{
+    padding: 10px;
+}
+.eee{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+    url(https://media.istockphoto.com/id/1433782209/vector/beautiful-reb-and-black-background-for-design-campaign.jpg?s=612x612&w=0&k=20&c=cNElIn0N5tGPXZ0D3E8rcBDm7VA7Uplwfy67rbVIUU4=);
+    background-size: cover;
+}
+.i{
+    margin-top: 20px;
+    position: relative;
+    border-radius: 30px;
+    transition: 1s ease;
+}
+.para{
+    position: absolute;
+    top: 420px;
+    right:280px;
+    font-size: 30px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+
+}
+.i:hover{
+    transform: scale(1.1);
+    
+
+    
+}
+#con{
+    text-align: center;
+    
+}
+.ff{
+    border: 2px solid black;
+    padding: 10px;
+    width: 300px;
+    margin-left: 38%;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),
+    url(https://media.istockphoto.com/id/1433782209/vector/beautiful-reb-and-black-background-for-design-campaign.jpg?s=612x612&w=0&k=20&c=cNElIn0N5tGPXZ0D3E8rcBDm7VA7Uplwfy67rbVIUU4=);
+    background-size: cover;
+}
+
+
+    
+
+
+.hh{
+    text-align: start;
+}
+.send{
+    padding: 10px;
+    border-radius: 10px;
+    background-color:indianred;
+    color: whitesmoke;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    
+}
+.send:hover{
+    color: black;
+    background-color: rgba(245, 245, 245, 0.732);
+}
